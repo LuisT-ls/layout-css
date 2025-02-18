@@ -94,7 +94,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-- [LuisT-ls](https://github.com/LuisT-ls)Frente
+- [LuisT-ls](https://github.com/LuisT-ls)
 
 ## 🌟 Agradecimentos
 
