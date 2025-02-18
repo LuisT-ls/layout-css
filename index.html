@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cubo 3D Interativo</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="scene">
+      <div class="floating-particles"></div>
+      <div class="container">
+        <div class="cube">
+          <div class="face front">
+            <span class="neon-text">Frente</span>
+            <div class="corner-lights"></div>
+          </div>
+          <div class="face back">
+            <span class="neon-text">Trás</span>
+            <div class="corner-lights"></div>
+          </div>
+          <div class="face right">
+            <span class="neon-text">Direita</span>
+            <div class="corner-lights"></div>
+          </div>
+          <div class="face left">
+            <span class="neon-text">Esquerda</span>
+            <div class="corner-lights"></div>
+          </div>
+          <div class="face top">
+            <span class="neon-text">Topo</span>
+            <div class="corner-lights"></div>
+          </div>
+          <div class="face bottom">
+            <span class="neon-text">Base</span>
+            <div class="corner-lights"></div>
+          </div>
+        </div>
+      </div>
+      <div class="glow-effect"></div>
+    </div>
+
+    <!-- Easter egg -->
+    <!--  
+    <antArtifact identifier="easter-egg-script" type="application/vnd.ant.code" language="html" title="Script do Easter Egg">
+      <script>
+          const cube = document.querySelector('.cube');
+          cube.addEventListener('click', () => {
+              cube.classList.remove('spin-animation');
+              // Força um reflow
+              void cube.offsetWidth;
+              cube.classList.add('spin-animation');
+          });
+      </script>
+      -->
+  </body>
+</html>
